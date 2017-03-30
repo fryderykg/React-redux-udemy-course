@@ -13,18 +13,7 @@
   margin: 10px;
 }
 
-.days {
-
-}
-
-.hours {
-
-}
-
-.minutes {
-
-}
-
-.seconds {
-
+.deadline-input {
+  font-size: 25px;
+  margin: 5px;
 }
