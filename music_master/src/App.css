@@ -1,41 +1,76 @@
 body {
-  background: #000000;
-  color: #FFFFFF;
+    background: #000000;
+    color: #FFFFFF;
 }
 
 .App {
-  text-align: center;
-  padding: 5%;
+    padding: 5%;
+    text-align: center;
 }
 
 .App-title {
-  font-size: 26px;
+    font-size: 26px;
 }
 
 /* Profile */
 .profile {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px;
-  border: 2px solid #FFFFFF;
-  border-radius: 75px;
-  object-fit: cover;
+    border-radius: 75px;
+    border: 2px solid #FFFFFF;
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
 }
 
 .profile-info {
-  margin-left: 10px;
-  text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    text-align: left;
 }
 
 .profile-name {
-  font-size: 26px;
+    font-size: 26px;
 }
 
 .profile-followers,
 .profile-genres {
-  font-size: 18px;
+    font-size: 18px;
+}
+
+/* Gallery */
+.track {
+    cursor: pointer;
+    display: inline-block;
+    height: 220px;
+    margin: 10px;
+    position: relative;
+    text-align: left;
+    width: 220px;
+}
+
+.track-img {
+    border-radius: 3px;
+    border: 2px solid #FFFFFF;
+    height: 220px;
+    object-fit: cover;
+    position: absolute;
+    width: 220px;
+}
+
+.track-text {
+    background: #000000;
+    bottom: 2px;
+    color: #FFFFFF;
+    left: 2px;
+    opacity: .75;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 216px;
 }
